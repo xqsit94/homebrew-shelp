@@ -1,13 +1,13 @@
 class Shelp < Formula
   desc "AI-powered shell assistant - convert natural language to commands"
   homepage "https://github.com/xqsit94/shelp"
-  version "0.1.0-alpha"
+  version "0.2.0-alpha"
   license "MIT"
 
   on_macos do
     on_intel do
       url "https://github.com/xqsit94/shelp/releases/download/v#{version}/shelp-darwin-amd64.tar.gz"
-      sha256 "632fc1a1876908d3ea0f4901be52be9c088dcc3bfe7f9ecc1ab28127ee5272f5"
+      sha256 "27394ad8537224705ebf30614bbbaea22a2934a53d2ab62ee3f3375b8a9bfe28"
 
       def install
         bin.install "shelp"
